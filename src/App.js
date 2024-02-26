@@ -1,17 +1,10 @@
+import React from 'react';
+import Navbar from './components/navbar';
 
-import Navbar from './Navbar';
-import Home from './Home';
-
-function App() {
-
-  const title = 'Welcome to the new blog!'
-
+function App(props) {
   return (
-    <div className="App">
+    <div>
       <Navbar/>
-     <div className="content">
-        <Home/>
-     </div>
     </div>
   );
 }
